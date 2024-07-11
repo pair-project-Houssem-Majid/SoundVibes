@@ -1,0 +1,24 @@
+
+
+img{
+    width: 100px;
+    
+}
+#albums-container {
+    border: 1px solid #ddd;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 80%;
+    margin: 0 auto;
+    /* height: 100px; */
+    
+}
+.album-header {
+    cursor: pointer;
+}
+.track {
+    margin-left: 20px;
+}
+.track-image{
+    width: 70px;
+}
